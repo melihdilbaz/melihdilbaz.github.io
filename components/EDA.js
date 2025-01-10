@@ -274,7 +274,7 @@ export function EDA() {
 
               <!-- Subcategory Spending Histograms -->
               <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
-                <h3 class="text-2xl font-bold mb-4 text-gray-800">Subcategory Spending Histograms</h3>
+                <h3 class="text-2xl font-bold mb-4 text-gray-800">Proportional Percentage Chart of Subcategories</h3>
                 <p class="text-gray-700 mb-4">
                   The chart below highlights shifts in relative importance of spending subcategories over time:
                 </p>
@@ -293,7 +293,7 @@ export function EDA() {
 
               <!-- Proportional Percentage Chart -->
               <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
-                <h3 class="text-2xl font-bold mb-4 text-gray-800">Proportional Percentage Chart of Subcategories</h3>
+                <h3 class="text-2xl font-bold mb-4 text-gray-800">Subcategory Spending Histograms</h3>
                 <p class="text-gray-700 mb-4">
                   The chart below shows the proportions of subcategories, focusing on spendings alone:
                 </p>

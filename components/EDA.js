@@ -155,9 +155,9 @@ export function EDA() {
             <img src="./images/comp3img3.png" alt="Boxplot of Spending" class="rounded-lg shadow-md">
             <p class="text-gray-700 mt-4">
               <strong>Findings:</strong> 
-              - The interquartile range is the widest among the terms analyzed, with the whiskers extending to a broader range of values before hitting outliers.
-              - While the typical daily spending is centered around 500.00, the growing variability implies that spending behavior is becoming less predictable.</p>
-          </div>
+              The presence of outliers confirms occasional days with extremely high spending compared to the typical pattern.
+              - The range between Q1 and Q3 suggests moderate spending variability mostly, but the extended whiskers shows some days significantly deviate from this pattern
+            </div>
 
           <!-- Heatmaps -->
           <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
@@ -272,7 +272,7 @@ export function EDA() {
                 <p class="text-gray-700 mb-4">
                   The chart below highlights shifts in relative importance of spending subcategories over time:
                 </p>
-                <img src="./images/comp4img2.png" alt="Subcategory Spending Histograms" class="rounded-lg shadow-md mb-4">
+                <img src="./images/comp4img2.png" alt="Subcategory Spending Histograms" class="rounded-lg shadow-md w-64 h-auto mb-4">
                 <p class="text-gray-700">
                   <strong>Findings:</strong>
                   <ul class="list-disc pl-6 text-gray-700 mb-4">

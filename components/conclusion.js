@@ -13,8 +13,8 @@ export function Conclusion() {
         <p class="text-gray-700 mb-4">
             The relation between data points in both charts below is approximately linear, allowing the use of the Pearson correlation coefficient, which evaluates linear relationships:
         </p>
-        <img src="./images/concImg1.png" alt="Monthly Discretionary Rates" class="rounded-lg shadow-md mb-4">
-        <img src="./images/concImg2.png" alt="Semester-Based Discretionary Rates" class="rounded-lg shadow-md mb-4">
+        <img src="./images/concImg1.png" alt="Monthly Discretionary Rates" class="rounded-lg shadow-md w-1/2 h-auto mb-4">
+        <img src="./images/concImg2.png" alt="Semester-Based Discretionary Rates" class="rounded-lg shadow-md w-1/2 h-auto mb-4">
         <p class="text-gray-700 mb-4">
             <strong>Findings:</strong>
             <ul class="list-disc pl-6 text-gray-700">

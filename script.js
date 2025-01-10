@@ -5,6 +5,7 @@ import { EDA } from './components/EDA.js';
 import { Footer } from './components/Footer.js';
 import { MachineLearning} from './components/MachineLearning.js'
 import { MarginLayer } from './components/marginLayer.js';
+import { Conclusion } from './components/conclusion.js';
 
 const app = document.getElementById('app');
 
@@ -19,6 +20,7 @@ app.innerHTML = `
   ${MarginLayer()}
   ${MachineLearning()}
   ${MarginLayer()}
+  ${Conclusion()}
   ${Footer()}
 
 `;

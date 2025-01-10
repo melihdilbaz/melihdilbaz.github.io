@@ -2,7 +2,7 @@ export function MachineLearning() {
     return `
       <section id="machine-learning" class="container mx-auto px-8 py-16 bg-gradient-to-br from-gray-50 to-purple-50 rounded-3xl shadow-2xl">
         <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-12">
-          Machine Learning Analysis __TRIAL
+          Machine Learning Analysis
         </h2>
         <p class="text-center text-lg text-gray-700 mb-12">
           Leveraging machine learning models to predict economic periods based on spending behavior and other financial indicators.

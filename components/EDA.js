@@ -191,6 +191,62 @@ export function EDA() {
               Despite the rise in total spending, a balance between discretionary and essential expenditures has been maintained, indicating adaptive financial management in response to economic challenges.
             </p>
           </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Analysis of Cumulative Spending Histograms</h3>
+            <p class="text-gray-700 mb-4">
+              The chart below visualizes cumulative spending trends over time, with vertical lines indicating the start and end dates of each school semester. This analysis highlights spending patterns during school terms, with gaps representing:
+            </p>
+            <ul class="list-disc pl-6 text-gray-700 mb-4">
+              <li><strong>Small gaps:</strong> Winter breaks.</li>
+              <li><strong>Large gaps:</strong> Summer breaks.</li>
+            </ul>
+            <img src="./images/comp3img9.png" alt="Cumulative Spending Histogram" class="rounded-lg shadow-md">
+            <p class="text-gray-700 mt-4">
+              This visualization separates the five distinct school semesters, helping to analyze trends in spending behavior during these focused periods.
+            </p>
+          </div>
+
+          <!-- 30-Day Cumulative Spending Histogram -->
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">30-Day Cumulative Spending Histogram</h3>
+            <p class="text-gray-700 mb-4">
+              The chart below aggregates spending over 30-day cumulative periods, offering a broader perspective on spending behavior. Key observations include:
+            </p>
+            <ul class="list-disc pl-6 text-gray-700 mb-4">
+              <li>Total spending progressively increases over time, especially in later school terms, reflecting the compounding impact of inflation and changing spending habits.</li>
+              <li>Discretionary spending shows substantial variability, while essential spending grows more steadily.</li>
+              <li>Peaks in discretionary spending suggest that non-essential purchases are influenced by income timing or other financial factors.</li>
+            </ul>
+            <img src="./images/comp3img10.png" alt="30-Day Cumulative Spending Histogram" class="rounded-lg shadow-md">
+          </div>
+
+          <!-- Inflation Analysis -->
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Inflation Analysis</h3>
+            <p class="text-gray-700 mb-4">
+              The first chart below shows the inflation trends in Turkey from 2022 to 2024, based on data scraped from TÜIK’s official website. Two variables are overlaid:
+            </p>
+            <ul class="list-disc pl-6 text-gray-700 mb-4">
+              <li><strong>Red:</strong> Annual inflation rate, calculated based on prices from the same date of the previous year.</li>
+              <li><strong>Blue:</strong> Monthly inflation rate, calculated based on price changes from the previous month.</li>
+            </ul>
+            <img src="./images/comp3img11.png" alt="Inflation Rates Analysis" class="rounded-lg shadow-md mb-4">
+            <p class="text-gray-700 mb-4">
+              The second chart shows the cumulative 30-day spending histogram. Changes in spending volume are computed monthly, similar to the logic of inflation rate calculations. Positive or negative lines indicate the type of change.
+            </p>
+            <img src="./images/comp3img12.png" alt="Cumulative Spending Changes" class="rounded-lg shadow-md">
+            <p class="text-gray-700 mt-4">
+              <strong>Key Findings:</strong>
+              <ul class="list-disc pl-6 text-gray-700 mb-4">
+                <li>Spending volumes closely track inflation rates, particularly during peaks in January 2023, July 2023, and January 2024.</li>
+                <li>High inflation periods caused noticeable shifts in spending, with essentials dominating during peaks and discretionary spending returning as inflation stabilized.</li>
+                <li>Inflation seems to have significantly influenced total spending volumes and monthly changes, likely due to parallel increases in income.</li>
+                <li>There is no concrete evidence of a drastic change in the share of discretionary spending, which challenges the hypothesis.</li>
+                <li>Spending peaks tied to specific dates (e.g., school start/end, holidays) suggest independent factors influencing discretionary spending.</li>
+              </ul>
+            </p>
+          </div>
         </div>
         
         <!-- Component 4 -->

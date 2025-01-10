@@ -251,7 +251,80 @@ export function EDA() {
         
         <!-- Component 4 -->
         <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
-          
+            <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-12">
+                Explore Group Properties
+              </h2>
+              <p class="text-center text-lg text-gray-700 mb-12">
+                Analyzing relationships and distributions between discretionary spending patterns and subcategories.
+              </p>
+
+              <!-- Node and Edge Analysis -->
+              <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
+                <h3 class="text-2xl font-bold mb-4 text-gray-800">Node and Edge Analysis</h3>
+                <p class="text-gray-700 mb-4">
+                  The chart below visualizes nodes and edges representing relationships in discretionary spending patterns across semesters:
+                </p>
+                <ul class="list-disc pl-6 text-gray-700 mb-4">
+                  <li><strong>Node Sizes:</strong> Larger nodes indicate higher average discretionary spending ratios.</li>
+                  <li><strong>Node Colors:</strong> Represent semesters, showing variations in spending behavior across terms and specific days of the week.</li>
+                  <li><strong>Edge Weights:</strong> Represent relationships based on:
+                    <ul class="list-disc pl-6">
+                      <li>Similarity in discretionary spending ratios.</li>
+                      <li>Grouping by day of the week (e.g., weekday vs. weekend).</li>
+                      <li>Semester effects (nodes from the same semester).</li>
+                    </ul>
+                  </li>
+                </ul>
+                <img src="./images/comp4img1.png" alt="Node and Edge Analysis" class="rounded-lg shadow-md mb-4">
+                <p class="text-gray-700">
+                  <strong>Findings:</strong>
+                  <ul class="list-disc pl-6 text-gray-700">
+                    <li>Weekends (Friday to Sunday) show consistently higher discretionary spending, with larger nodes and closer groupings.</li>
+                    <li>Weekdays (Monday to Thursday) have smaller nodes, indicating lower discretionary spending proportions.</li>
+                    <li>Semesters 2 (orange) and 3 (green) form clusters with higher discretionary shares on weekends, while semesters 1 (blue) and 4 (red) diverge significantly.</li>
+                    <li>5th semester (purple) shows no notable discretionary pattern except for Thursday, which aligns with no classes in the schedule.</li>
+                  </ul>
+                </p>
+              </div>
+
+              <!-- Subcategory Spending Histograms -->
+              <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
+                <h3 class="text-2xl font-bold mb-4 text-gray-800">Subcategory Spending Histograms</h3>
+                <p class="text-gray-700 mb-4">
+                  The chart below highlights shifts in relative importance of spending subcategories over time:
+                </p>
+                <img src="./images/comp4img2.png" alt="Subcategory Spending Histograms" class="rounded-lg shadow-md mb-4">
+                <p class="text-gray-700">
+                  <strong>Findings:</strong>
+                  <ul class="list-disc pl-6 text-gray-700 mb-4">
+                    <li>Grants dominate spending proportions at the start of terms, emphasizing the role of essential income in financial stability.</li>
+                    <li>Allowances contribute significantly in the middle of terms, supporting both essential and discretionary expenditures.</li>
+                    <li>Dining out (red and orange) sees larger proportions near the end of terms, reflecting social and discretionary spending habits.</li>
+                    <li>Entertainment spending fluctuates but retains a steady proportion overall.</li>
+                  </ul>
+                  <strong>Note:</strong> Essential inflows (grants and allowances) form the foundation of spending, with discretionary expenditures layered on top, reflecting financial stability from predictable income sources.
+                </p>
+              </div>
+
+              <!-- Proportional Percentage Chart -->
+              <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+                <h3 class="text-2xl font-bold mb-4 text-gray-800">Proportional Percentage Chart of Subcategories</h3>
+                <p class="text-gray-700 mb-4">
+                  The chart below shows the proportions of subcategories, focusing on spendings alone:
+                </p>
+                <img src="./images/comp4img3.png" alt="Proportional Percentage Chart" class="rounded-lg shadow-md mb-4">
+                <p class="text-gray-700">
+                  <strong>Findings:</strong>
+                  <ul class="list-disc pl-6 text-gray-700 mb-4">
+                    <li>Cafeteria food (essential) dominates spending proportions, reflecting its central role in essential spending.</li>
+                    <li>Fashion spending remains steady across semesters, showing consistent contributions to discretionary spending.</li>
+                    <li>Dining out - food and coffee form the largest part of discretionary spending, while entertainment consistently holds the smallest share.</li>
+                  </ul>
+                  <strong>Note:</strong> The steady discretionary spending rate is supported by stable income, even in challenging economic conditions. Dining out and coffee shops serve as primary venues for student socialization, which may explain their dominant role in discretionary spending.
+                </p>
+              </div>
+        
+
           <!-- Component 4: Explore Group Properties -->
         </div>
       </div>

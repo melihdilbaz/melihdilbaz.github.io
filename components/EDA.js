@@ -112,8 +112,85 @@ export function EDA() {
 
         <!-- Component 3 -->
         <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+          <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-12">
+            Explore Global Properties
+          </h2>
+          <p class="text-center text-lg text-gray-700 mb-12">
+            Analyzing spending trends, distributions, and the relationship between total spending and discretionary shares across terms.
+          </p>
 
-          <!-- Component 3: Explore Global Properties -->
+          <!-- Chart: Semester-Based Relationship -->
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Semester-Based Spending Trends</h3>
+            <p class="text-gray-700 mb-4">
+              Using data from <strong>final_categorized_merged.csv</strong>, the chart below visualizes the relationship between total spending and discretionary share for all five semesters. Each day is represented by a colored circle, where:
+            </p>
+            <ul class="list-disc pl-6 text-gray-700 mb-4">
+              <li>The size of the circle indicates the ratio of discretionary spending to the total spending for that day.</li>
+              <li>The colors represent different semesters, highlighting patterns specific to each term.</li>
+            </ul>
+            <img src="./images/comp3img1.png" alt="Semester Spending Trends" class="rounded-lg shadow-md">
+            <p class="text-gray-700 mt-4">
+              <strong>Findings:</strong> Spending volumes increased over time, with the center of masses moving upward. Spring semesters (blue and yellow) show clustering at the bottom during April, likely due to lower personal spending during spring break.
+            </p>
+          </div>
+
+          <!-- Histogram with Statistical Highlights -->
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Histogram with Statistical Highlights</h3>
+            <p class="text-gray-700 mb-4">
+              The histogram below shows the distribution of total spending across terms, highlighting statistical insights:
+            </p>
+            <img src="./images/comp3img2.png" alt="Histogram of Spending" class="rounded-lg shadow-md mb-4">
+            <p class="text-gray-700 mb-4">
+              The right-skewed distribution indicates occasional high-expenditure days (outliers), likely due to discretionary splurges or essential payments like tuition fees or travel.
+            </p>
+            <img src="./images/comp3img3.png" alt="Boxplot of Spending" class="rounded-lg shadow-md">
+            <p class="text-gray-700 mt-4">
+              <strong>Findings:</strong> 
+              - The interquartile range is wide, suggesting moderate spending variability with some significant outliers. 
+              - The median value of <strong>500.00</strong> is close to the mean, showing a balanced distribution despite a slight right skew. 
+              - Standard deviation (<strong>420.56</strong>) indicates substantial variability in daily spending.
+            </p>
+          </div>
+
+          <!-- Spending Variability -->
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Spending Variability Across Terms</h3>
+            <img src="./images/comp3img4.png" alt="Spending Variability" class="rounded-lg shadow-md mb-4">
+            <p class="text-gray-700 mb-4">
+              <strong>Key Insights:</strong>
+              - The interquartile range is the widest among analyzed terms, with whiskers extending further before reaching outliers. 
+              - The growing variability suggests less predictable spending patterns over time.
+            </p>
+          </div>
+
+          <!-- Heatmaps -->
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Heatmaps: Volume vs. Discretionary Share</h3>
+            <img src="./images/comp3img6.png" alt="Heatmap 1" class="rounded-lg shadow-md mb-4">
+            <img src="./images/comp3img7.png" alt="Heatmap 2" class="rounded-lg shadow-md mb-4">
+            <img src="./images/comp3img8.png" alt="Heatmap 3" class="rounded-lg shadow-md">
+            <p class="text-gray-700 mt-4">
+              These heatmaps illustrate the relationship between total spending volume and discretionary share across terms. High spending days are primarily essential-heavy, while discretionary-heavy days remain limited in total spending.
+            </p>
+          </div>
+
+          <!-- Spending Trends and Patterns -->
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Spending Trends and Patterns</h3>
+            <p class="text-gray-700 mb-4">
+              Total spending has progressively increased over terms, reflecting inflationary impacts and evolving financial behavior. Key trends include:
+            </p>
+            <ul class="list-disc pl-6 text-gray-700 mb-4">
+              <li>Higher spending days are increasingly frequent, driven primarily by essential expenditures.</li>
+              <li>Discretionary-heavy days are associated with smaller total spending amounts, suggesting careful budgeting.</li>
+              <li>The increasing variability in spending highlights the influence of inflation and changing priorities.</li>
+            </ul>
+            <p class="text-gray-700">
+              Despite the rise in total spending, a balance between discretionary and essential expenditures has been maintained, indicating adaptive financial management in response to economic challenges.
+            </p>
+          </div>
         </div>
         
         <!-- Component 4 -->

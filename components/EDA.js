@@ -9,7 +9,7 @@ export function EDA() {
       </p>
       
       <!-- EDA Components Container -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8" style="grid-auto-flow: dense;">
         <!-- Component 1 -->
         <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
           <h3 class="text-2xl font-bold mb-4 text-gray-800">Building the DataFrame</h3>
@@ -192,21 +192,6 @@ export function EDA() {
             </p>
           </div>
 
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
-            <h3 class="text-2xl font-bold mb-4 text-gray-800">Analysis of Cumulative Spending Histograms</h3>
-            <p class="text-gray-700 mb-4">
-              The chart below visualizes cumulative spending trends over time, with vertical lines indicating the start and end dates of each school semester. This analysis highlights spending patterns during school terms, with gaps representing:
-            </p>
-            <ul class="list-disc pl-6 text-gray-700 mb-4">
-              <li><strong>Small gaps:</strong> Winter breaks.</li>
-              <li><strong>Large gaps:</strong> Summer breaks.</li>
-            </ul>
-            <img src="./images/comp3img9.png" alt="Cumulative Spending Histogram" class="rounded-lg shadow-md">
-            <p class="text-gray-700 mt-4">
-              This visualization separates the five distinct school semesters, helping to analyze trends in spending behavior during these focused periods.
-            </p>
-          </div>
-
           <!-- 30-Day Cumulative Spending Histogram -->
           <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
             <h3 class="text-2xl font-bold mb-4 text-gray-800">30-Day Cumulative Spending Histogram</h3>
@@ -218,7 +203,7 @@ export function EDA() {
               <li>Discretionary spending shows substantial variability, while essential spending grows more steadily.</li>
               <li>Peaks in discretionary spending suggest that non-essential purchases are influenced by income timing or other financial factors.</li>
             </ul>
-            <img src="./images/comp3img10.png" alt="30-Day Cumulative Spending Histogram" class="rounded-lg shadow-md">
+            <img src="./images/comp3img9.png" alt="30-Day Cumulative Spending Histogram" class="rounded-lg shadow-md">
           </div>
 
           <!-- Inflation Analysis -->
@@ -227,15 +212,15 @@ export function EDA() {
             <p class="text-gray-700 mb-4">
               The first chart below shows the inflation trends in Turkey from 2022 to 2024, based on data scraped from TÜIK’s official website. Two variables are overlaid:
             </p>
+            <img src="./images/comp3img10.png" alt="Turkey Inflation" class="rounded-lg shadow-md">
             <ul class="list-disc pl-6 text-gray-700 mb-4">
               <li><strong>Red:</strong> Annual inflation rate, calculated based on prices from the same date of the previous year.</li>
               <li><strong>Blue:</strong> Monthly inflation rate, calculated based on price changes from the previous month.</li>
             </ul>
-            <img src="./images/comp3img11.png" alt="Inflation Rates Analysis" class="rounded-lg shadow-md mb-4">
             <p class="text-gray-700 mb-4">
               The second chart shows the cumulative 30-day spending histogram. Changes in spending volume are computed monthly, similar to the logic of inflation rate calculations. Positive or negative lines indicate the type of change.
             </p>
-            <img src="./images/comp3img12.png" alt="Cumulative Spending Changes" class="rounded-lg shadow-md">
+            <img src="./images/comp3img11.png" alt="Cumulative Spending Chagnes" class="rounded-lg shadow-md mb-4">
             <p class="text-gray-700 mt-4">
               <strong>Key Findings:</strong>
               <ul class="list-disc pl-6 text-gray-700 mb-4">

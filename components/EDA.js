@@ -68,14 +68,14 @@ export function EDA() {
           </p>
           
           <!-- Image 1 -->
-          <img src="./images/component2Image1.png" alt="Categorized Transactions" class="mb-4 rounded-lg shadow-md">
+          <img src="images/component2Image1.png" alt="Categorized Transactions" class="mb-4 rounded-lg shadow-md">
           <p class="text-gray-700 mb-4">
             <strong>Above:</strong> <em>final_categorized_transactions.csv</em><br>
             • All data points were merged into the respective days they belong to.
           </p>
           
           <!-- Image 2 -->
-          <img src="./images/component2Image2.png" alt="Categorized by Day of Week" class="mb-4 rounded-lg shadow-md">
+          <img src="images/component2Image2.png" alt="Categorized by Day of Week" class="mb-4 rounded-lg shadow-md">
           <p class="text-gray-700 mb-4">
             <strong>Above:</strong> <em>final_categorized_dayOfWeek.csv</em><br>
             • A new field mapped each day to its corresponding day of the week.<br>
@@ -87,7 +87,7 @@ export function EDA() {
           </p>
           
           <!-- Image 3 -->
-          <img src="./images/component2Image3.png" alt="Merged Dataset" class="mb-4 rounded-lg shadow-md">
+          <img src="images/component2Image3.png" alt="Merged Dataset" class="mb-4 rounded-lg shadow-md">
           <p class="text-gray-700 mb-4">
             <strong>Above:</strong> <em>final_categorized_merged.csv</em><br>
             This dataset merges all enriched information and forms the basis for further analysis.

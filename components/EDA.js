@@ -145,24 +145,18 @@ export function EDA() {
             <p class="text-gray-700 mb-4">
               The right-skewed distribution indicates occasional high-expenditure days (outliers), likely due to discretionary splurges or essential payments like tuition fees or travel.
             </p>
-            <img src="./images/comp3img3.png" alt="Boxplot of Spending" class="rounded-lg shadow-md">
-            <p class="text-gray-700 mt-4">
-              <strong>Findings:</strong> 
-              - The interquartile range is wide, suggesting moderate spending variability with some significant outliers. 
-              - The median value of <strong>500.00</strong> is close to the mean, showing a balanced distribution despite a slight right skew. 
-              - Standard deviation (<strong>420.56</strong>) indicates substantial variability in daily spending.
-            </p>
-          </div>
-
-          <!-- Spending Variability -->
-          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 mb-8">
-            <h3 class="text-2xl font-bold mb-4 text-gray-800">Spending Variability Across Terms</h3>
             <img src="./images/comp3img4.png" alt="Spending Variability" class="rounded-lg shadow-md mb-4">
             <p class="text-gray-700 mb-4">
               <strong>Key Insights:</strong>
-              - The interquartile range is the widest among analyzed terms, with whiskers extending further before reaching outliers. 
-              - The growing variability suggests less predictable spending patterns over time.
+              - The median value of 500.00 is closer to the mean, suggesting a more balanced distribution but still slightly skewed to the right.
+              - The standard deviation (420.56) is the highest so far, indicating substantial variability.
+              - The interquartile range has grown considerably compared to previous terms, implying a larger spread of typical spending days.
             </p>
+            <img src="./images/comp3img3.png" alt="Boxplot of Spending" class="rounded-lg shadow-md">
+            <p class="text-gray-700 mt-4">
+              <strong>Findings:</strong> 
+              - The interquartile range is the widest among the terms analyzed, with the whiskers extending to a broader range of values before hitting outliers.
+              - While the typical daily spending is centered around 500.00, the growing variability implies that spending behavior is becoming less predictable.</p>
           </div>
 
           <!-- Heatmaps -->
